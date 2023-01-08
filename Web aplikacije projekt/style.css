@@ -1,0 +1,539 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*-------------HEADER IMAGE-------------*/
+.banner-img {
+  background-image: url("./images/Pizzeria banner img.jpg");
+  height: 350px;
+  background-size: 100% 130%;
+}
+
+/*-------------HEADER-------------*/
+.header {
+  text-align: center;
+  padding-top: 10%;
+  margin-right: 1%;
+  color: white;
+  font-size: 3rem;
+  width: 45%;
+  float: right;
+}
+
+/*-------------NAVIGATION-------------*/
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style-type: none;
+  background-color: rgb(32, 44, 39);
+}
+
+nav ul li {
+  margin: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+/*-------------MAIN PART-------------*/
+main {
+  height: 100%;
+  background: linear-gradient(
+    0deg,
+    rgba(52, 52, 52, 1) 0%,
+    rgba(102, 102, 102, 1) 20%,
+    rgba(194, 194, 194, 1) 100%
+  );
+  display: flex;
+  flex-direction: column;
+}
+
+/*-------------PIZZAS CONTAINER-------------*/
+.main-pizzas {
+  padding-top: 2%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/*-------------CAPRICCIOSA-------------*/
+.capricciosa {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin: 0 0.5% 2% 0.5%;
+  width: 390px;
+  border: 1px solid rgb(32, 44, 39);
+  background-color: white;
+}
+
+.capricciosa img {
+  width: 100%;
+}
+
+.capricciosa ul {
+  list-style-type: none;
+  line-height: 2rem;
+  text-align: center;
+}
+
+.capricciosa h1 {
+  text-align: center;
+  font-size: 2.2rem;
+}
+
+.capricciosa p {
+  text-align: center;
+  font-size: 1.7rem;
+}
+
+/*-------------MARGHERITA-------------*/
+.margherita {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin: 0 0.5% 2% 0.5%;
+  width: 390px;
+  border: 1px solid rgb(32, 44, 39);
+  background-color: white;
+}
+
+.margherita img {
+  width: 100%;
+}
+
+.margherita ul {
+  list-style-type: none;
+  line-height: 2rem;
+  text-align: center;
+}
+
+.margherita h1 {
+  text-align: center;
+  font-size: 2.2rem;
+}
+
+.margherita p {
+  text-align: center;
+  font-size: 1.7rem;
+}
+
+/*-------------VEGETARIAN-------------*/
+.vegetarian {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin: 0 0.5% 2% 0.5%;
+  width: 390px;
+  border: 1px solid rgb(32, 44, 39);
+  background-color: white;
+}
+
+.vegetarian img {
+  width: 100%;
+}
+
+.vegetarian ul {
+  list-style-type: none;
+  line-height: 2rem;
+  text-align: center;
+}
+
+.vegetarian h1 {
+  text-align: center;
+  font-size: 2.2rem;
+}
+
+.vegetarian p {
+  text-align: center;
+  font-size: 1.7rem;
+}
+
+/*-------------PROSCIUTTO-------------*/
+.prosciutto {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin: 0 0.5% 2% 0.5%;
+  width: 390px;
+  border: 1px solid rgb(32, 44, 39);
+  background-color: white;
+}
+
+.prosciutto img {
+  width: 100%;
+}
+
+.prosciutto ul {
+  list-style-type: none;
+  line-height: 2rem;
+  text-align: center;
+}
+
+.prosciutto h1 {
+  text-align: center;
+  font-size: 2.2rem;
+}
+
+.prosciutto p {
+  text-align: center;
+  font-size: 1.7rem;
+}
+
+/*-------------NAPOLETANA-------------*/
+.napoletana {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin: 0 0.5% 2% 0.5%;
+  width: 390px;
+  border: 1px solid rgb(32, 44, 39);
+  background-color: white;
+}
+
+.napoletana img {
+  width: 100%;
+}
+
+.napoletana ul {
+  list-style-type: none;
+  line-height: 2rem;
+  text-align: center;
+}
+
+.napoletana h1 {
+  text-align: center;
+  font-size: 2.2rem;
+}
+
+.napoletana p {
+  text-align: center;
+  font-size: 1.7rem;
+}
+
+/*-------------HAWAII-------------*/
+.hawaii {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin: 0 0.5% 2% 0.5%;
+  width: 390px;
+  border: 1px solid rgb(32, 44, 39);
+  background-color: white;
+}
+
+.hawaii img {
+  width: 100%;
+}
+
+.hawaii ul {
+  list-style-type: none;
+  line-height: 2rem;
+  text-align: center;
+}
+
+.hawaii h1 {
+  text-align: center;
+  font-size: 2.2rem;
+}
+
+.hawaii p {
+  text-align: center;
+  font-size: 1.7rem;
+}
+
+/*-------------BIANCA-------------*/
+.bianca {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin: 0 0.5% 2% 0.5%;
+  width: 390px;
+  border: 1px solid rgb(32, 44, 39);
+  background-color: white;
+}
+
+.bianca img {
+  width: 100%;
+}
+
+.bianca ul {
+  list-style-type: none;
+  line-height: 2rem;
+  text-align: center;
+}
+
+.bianca h1 {
+  text-align: center;
+  font-size: 2.2rem;
+}
+
+.bianca p {
+  text-align: center;
+  font-size: 1.7rem;
+}
+
+/*-------------PICANTE-------------*/
+.picante {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin: 0 0.5% 2% 0.5%;
+  width: 390px;
+  border: 1px solid rgb(32, 44, 39);
+  background-color: white;
+}
+
+.picante img {
+  width: 100%;
+}
+
+.picante ul {
+  list-style-type: none;
+  line-height: 2rem;
+  text-align: center;
+}
+
+.picante h1 {
+  text-align: center;
+  font-size: 2.2rem;
+}
+
+.picante p {
+  text-align: center;
+  font-size: 1.7rem;
+}
+
+/*-------------QUATTRO FORMAGGI-------------*/
+.quattro-formaggi {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin: 0 0.5% 2% 0.5%;
+  width: 390px;
+  border: 1px solid rgb(32, 44, 39);
+  background-color: white;
+}
+
+.quattro-formaggi img {
+  width: 100%;
+}
+
+.quattro-formaggi ul {
+  list-style-type: none;
+  line-height: 2rem;
+  text-align: center;
+}
+
+.quattro-formaggi h1 {
+  text-align: center;
+  font-size: 2.2rem;
+}
+
+.quattro-formaggi p {
+  text-align: center;
+  font-size: 1.7rem;
+}
+
+/*-------------PIZZA INGREDIENTS-------------*/
+.pizza-information {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/*-------------GO TO MENU BUTTON-------------*/
+.btn-container {
+  margin: 5% 0;
+  text-align: center;
+}
+
+.go-to-menu-btn {
+  padding: 10px 40px;
+  border: 1px solid rgb(32, 44, 39);
+  border-radius: 15px;
+  background-color: white;
+  text-decoration: none;
+  color: black;
+}
+
+/*-------------RESERVATION-------------*/
+.reservation {
+  height: 100vh;
+  text-align: center;
+  padding-top: 5%;
+}
+
+.reservation h1 {
+  padding-bottom: 1%;
+}
+
+.reservation img {
+  padding-top: 1%;
+}
+
+/*-------------ABOUT-------------*/
+.about {
+  display: flex;
+  padding: 1%;
+  height: 100vh;
+}
+
+.about img {
+  height: 45%;
+  margin: 0 1% 4% 0;
+}
+
+.about-information {
+  line-height: 1.5rem;
+  text-indent: 20px;
+}
+
+.about-information p {
+  margin-bottom: 10px;
+}
+
+.about-information h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.about-information h3 {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+/*-------------CONTACT-------------*/
+.contact-main h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-top: 2%;
+}
+
+.contact {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.working-hours {
+  margin-right: 10%;
+}
+
+.phone {
+  display: flex;
+}
+
+.phone img {
+  height: 25px;
+  margin: auto 0;
+}
+
+.location {
+  display: flex;
+}
+
+.location img {
+  height: 35px;
+  margin: auto 0;
+}
+
+.working-hours h2 {
+  margin: 5% 0;
+}
+
+.contact h1 {
+  margin-top: 2%;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.contact form {
+  margin: 10% auto;
+  display: flex;
+  flex-direction: column;
+  width: 390px;
+  font-size: 1.2rem;
+}
+.contact form input {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+.contact form textarea {
+  resize: vertical;
+}
+
+.contact-main iframe {
+  display: block;
+  margin: auto;
+}
+
+.submit-btn {
+  width: 35%;
+  align-self: center;
+  margin-top: 3%;
+}
+
+/*-------------FOOTER-------------*/
+.footer {
+  background-color: rgb(32, 44, 39);
+  color: white;
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 5px;
+}
+
+/*-------------RESPONSIVENESS-------------*/
+@media only screen and (max-width: 1360px) {
+  .about {
+    height: 100%;
+    display: inline-block;
+  }
+  .about img {
+    float: left;
+    max-width: 390px;
+  }
+}
+
+@media only screen and (max-width: 820px) {
+  .contact {
+    flex-direction: column-reverse;
+  }
+  .working-hours {
+    margin-bottom: 5%;
+  }
+  .contact-main iframe {
+    height: 390px;
+    width: 390px;
+  }
+}
+
+@media only screen and (max-width: 799px) {
+  .main-pizzas {
+    padding-top: 0;
+  }
+}
+
+@media only screen and (max-width: 630px) {
+  .reservation img {
+    max-width: 390px;
+  }
+  .banner-img {
+    height: 250px;
+  }
+  .header {
+    font-size: 2rem;
+  }
+  nav ul li a {
+    font-size: 0.85rem;
+  }
+}

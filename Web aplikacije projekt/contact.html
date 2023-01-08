@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pablo's Pizzeria</title>
+    <link rel="icon" type="image/x-icon" href="./images/Pizza-favicon.ico">
+</head>
+
+<body>
+    <header>
+        <div class="banner-img">
+            <p class="header">Welcome to The Pablo's Pizzeria</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="reservation.html">Reservation</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="contact-main">
+            <h1>Contact Us</h1>
+            <div class="contact">
+                <div class="working-hours">
+                    <h2>Working Hours</h2>
+                    <p>Mon - Fri 8h - 20h</p>
+                    <p>Sat - Sun 10h - 23h</p>
+
+                    <div class="phone">
+                        <img src="./images/Phone.png" alt="Phone logo" />
+                        <h2>Telephone</h2>
+                    </div>
+                    <p>01 6542 332</p>
+
+                    <div class="location">
+                        <img src="./images/Location.png" alt="Location logo" />
+                        <h2>Location</h2>
+                    </div>
+                    <p>Av. Većeslava Holjevca 16</p>
+                </div>
+                <div>
+                    <form>
+                        <label for="name">Your name (required)</label>
+                        <input id="name" type="text" required />
+
+                        <label for="email">Your E-mail (required)</label>
+                        <input id="email" type="email" required />
+
+                        <label for="subject">Subject</label>
+                        <input id="subject" type="text" />
+
+                        <label for="message">Your message</label>
+                        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+
+                        <input class="submit-btn" type="submit" value="Submit">
+                    </form>
+                </div>
+            </div>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2782.704428084787!2d15.978115717827988!3d45.77711347513216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765d677c017c289%3A0xb42c3a5290620a9c!2sAv.%20Ve%C4%87eslava%20Holjevca%2016%2C%2010000%2C%20Zagreb!5e0!3m2!1shr!2shr!4v1673123422257!5m2!1shr!2shr"
+                width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <p>Copyright © Matej Šimičić 2023.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
